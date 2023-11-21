@@ -1,0 +1,13 @@
+@layer base {
+  html {
+    font-size: 100%;
+  }
+
+  body {
+    @apply tw-text-title tw-font-avenir tw-text-t00 tw-font-bold;
+    background: url('src/assets/images/bg.png') center no-repeat;
+  }
+  h2 {
+    @apply tw-text-title00 lg:tw-text-title01 -tw-tracking-12;
+  }
+}

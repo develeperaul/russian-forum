@@ -1,0 +1,569 @@
+[
+    {
+        "ID": "1",
+        "Municipal_districts": "Абзелиловский район",
+        "protyajonnost": "1086,95",
+        "asfaltobeton": "443,08",
+        "perehodnii": "643,87",
+        "proinspectorovano": "100",
+        "defects": "100"
+    },
+    {
+        "ID": "2",
+        "Municipal_districts": "Альшеевский район",
+        "protyajonnost": "957,35",
+        "asfaltobeton": "406,7",
+        "perehodnii": "550,65",
+        "proinspectorovano": "99,24",
+        "defects": "66,88"
+    },
+    {
+        "ID": "3",
+        "Municipal_districts": "Архангельский район",
+        "protyajonnost": "672,84",
+        "asfaltobeton": "203,36",
+        "perehodnii": "469,48",
+        "proinspectorovano": "100",
+        "defects": "92,16"
+    },
+    {
+        "ID": "4",
+        "Municipal_districts": "Аскинский район",
+        "protyajonnost": "618,89",
+        "asfaltobeton": "157,84",
+        "perehodnii": "461,05",
+        "proinspectorovano": "98,79",
+        "defects": "86,72"
+    },
+    {
+        "ID": "5",
+        "Municipal_districts": "Аургазинский район",
+        "protyajonnost": "724,36",
+        "asfaltobeton": "530,15",
+        "perehodnii": "194,21",
+        "proinspectorovano": "98,09",
+        "defects": "96,27"
+    },
+    {
+        "ID": "6",
+        "Municipal_districts": "Баймакский район",
+        "protyajonnost": "1274,67",
+        "asfaltobeton": "472,65",
+        "perehodnii": "802,02",
+        "proinspectorovano": "96,56",
+        "defects": "84,29"
+    },
+    {
+        "ID": "7",
+        "Municipal_districts": "Бакалинский район",
+        "protyajonnost": "637,21",
+        "asfaltobeton": "273,2",
+        "perehodnii": "364,01",
+        "proinspectorovano": "100",
+        "defects": "98,86"
+    },
+    {
+        "ID": "8",
+        "Municipal_districts": "Балтачевский район",
+        "protyajonnost": "644,53",
+        "asfaltobeton": "216,72",
+        "perehodnii": "427,81",
+        "proinspectorovano": "99,1",
+        "defects": "96,05"
+    },
+    {
+        "ID": "9",
+        "Municipal_districts": "Белебеевский район",
+        "protyajonnost": "899,46",
+        "asfaltobeton": "389,47",
+        "perehodnii": "509,99",
+        "proinspectorovano": "100",
+        "defects": "99,61"
+    },
+    {
+        "ID": "10",
+        "Municipal_districts": "Белокатайский район",
+        "protyajonnost": "479,52",
+        "asfaltobeton": "170,25",
+        "perehodnii": "309,27",
+        "proinspectorovano": "95,23",
+        "defects": "72,81"
+    },
+    {
+        "ID": "11",
+        "Municipal_districts": "Белорецкий район",
+        "protyajonnost": "1642,36",
+        "asfaltobeton": "566,05",
+        "perehodnii": "1076,31",
+        "proinspectorovano": "98,35",
+        "defects": "96,45"
+    },
+    {
+        "ID": "12",
+        "Municipal_districts": "Бижбулякский район",
+        "protyajonnost": "607,29",
+        "asfaltobeton": "214,63",
+        "perehodnii": "392,66",
+        "proinspectorovano": "98,55",
+        "defects": "91,77"
+    },
+    {
+        "ID": "13",
+        "Municipal_districts": "Бирский район",
+        "protyajonnost": "796,04",
+        "asfaltobeton": "395,7",
+        "perehodnii": "400,34",
+        "proinspectorovano": "100",
+        "defects": "88,15"
+    },
+    {
+        "ID": "14",
+        "Municipal_districts": "Благоварский район",
+        "protyajonnost": "524,31",
+        "asfaltobeton": "155,02",
+        "perehodnii": "369,29",
+        "proinspectorovano": "100",
+        "defects": "90,84"
+    },
+    {
+        "ID": "15",
+        "Municipal_districts": "Благовещенский район",
+        "protyajonnost": "742,57",
+        "asfaltobeton": "286,47",
+        "perehodnii": "456,1",
+        "proinspectorovano": "100",
+        "defects": "85,42"
+    },
+    {
+        "ID": "16",
+        "Municipal_districts": "Буздякский район",
+        "protyajonnost": "624,1",
+        "asfaltobeton": "308,29",
+        "perehodnii": "315,81",
+        "proinspectorovano": "100",
+        "defects": "88,56"
+    },
+    {
+        "ID": "17",
+        "Municipal_districts": "Бураевский район",
+        "protyajonnost": "665,55",
+        "asfaltobeton": "272,2",
+        "perehodnii": "393,35",
+        "proinspectorovano": "99,84",
+        "defects": "98,91"
+    },
+    {
+        "ID": "18",
+        "Municipal_districts": "Бурзянский район",
+        "protyajonnost": "662,74",
+        "asfaltobeton": "143,65",
+        "perehodnii": "519,09",
+        "proinspectorovano": "100",
+        "defects": "96,51"
+    },
+    {
+        "ID": "19",
+        "Municipal_districts": "Гафурийский район",
+        "protyajonnost": "610,55",
+        "asfaltobeton": "277,72",
+        "perehodnii": "332,83",
+        "proinspectorovano": "100",
+        "defects": "84,65"
+    },
+    {
+        "ID": "20",
+        "Municipal_districts": "Давлекановский район",
+        "protyajonnost": "727,78",
+        "asfaltobeton": "347,97",
+        "perehodnii": "379,81",
+        "proinspectorovano": "63,72",
+        "defects": "98,11"
+    },
+    {
+        "ID": "21",
+        "Municipal_districts": "Дуванский район ",
+        "protyajonnost": "634,84",
+        "asfaltobeton": "360,81",
+        "perehodnii": "274,03",
+        "proinspectorovano": "100",
+        "defects": "47,95"
+    },
+    {
+        "ID": "22",
+        "Municipal_districts": "Дюртюлинский район ",
+        "protyajonnost": "772",
+        "asfaltobeton": "515,52",
+        "perehodnii": "256,48",
+        "proinspectorovano": "100",
+        "defects": "100"
+    },
+    {
+        "ID": "23",
+        "Municipal_districts": "Ермекеевский район ",
+        "protyajonnost": "551,6",
+        "asfaltobeton": "238,71",
+        "perehodnii": "312,89",
+        "proinspectorovano": "100",
+        "defects": "78,12"
+    },
+    {
+        "ID": "24",
+        "Municipal_districts": "Зианчуринский район",
+        "protyajonnost": "722,63",
+        "asfaltobeton": "242,52",
+        "perehodnii": "480,11",
+        "proinspectorovano": "100",
+        "defects": "93,23"
+    },
+    {
+        "ID": "25",
+        "Municipal_districts": "Зилаирский район ",
+        "protyajonnost": "704,04",
+        "asfaltobeton": "238,88",
+        "perehodnii": "465,16",
+        "proinspectorovano": "100",
+        "defects": "84,93"
+    },
+    {
+        "ID": "26",
+        "Municipal_districts": "Иглинский район",
+        "protyajonnost": "1136,75",
+        "asfaltobeton": "365,69",
+        "perehodnii": "771,06",
+        "proinspectorovano": "92,58",
+        "defects": "89,84"
+    },
+    {
+        "ID": "27",
+        "Municipal_districts": "Илишевский район ",
+        "protyajonnost": "826,17",
+        "asfaltobeton": "342,64",
+        "perehodnii": "483,53",
+        "proinspectorovano": "99,14",
+        "defects": "62,92"
+    },
+    {
+        "ID": "28",
+        "Municipal_districts": "Ишимбайский район ",
+        "protyajonnost": "2462,81",
+        "asfaltobeton": "2190,93",
+        "perehodnii": "271,88",
+        "proinspectorovano": "100",
+        "defects": "96,24"
+    },
+    {
+        "ID": "29",
+        "Municipal_districts": "Калтасинский район ",
+        "protyajonnost": "451,21",
+        "asfaltobeton": "282",
+        "perehodnii": "169,21",
+        "proinspectorovano": "100",
+        "defects": "82,26"
+    },
+    {
+        "ID": "30",
+        "Municipal_districts": "Караидельский район",
+        "protyajonnost": "1154,04",
+        "asfaltobeton": "199,23",
+        "perehodnii": "954,81",
+        "proinspectorovano": "100",
+        "defects": "98,81"
+    },
+    {
+        "ID": "31",
+        "Municipal_districts": "Кармаскалинский район ",
+        "protyajonnost": "1085,49",
+        "asfaltobeton": "380,09",
+        "perehodnii": "705,4",
+        "proinspectorovano": "98,93",
+        "defects": "90,07"
+    },
+    {
+        "ID": "32",
+        "Municipal_districts": "Кигинский район ",
+        "protyajonnost": "463,49",
+        "asfaltobeton": "184,74",
+        "perehodnii": "278,75",
+        "proinspectorovano": "100",
+        "defects": "64,72"
+    },
+    {
+        "ID": "33",
+        "Municipal_districts": "Краснокамский район ",
+        "protyajonnost": "465,29",
+        "asfaltobeton": "392,61",
+        "perehodnii": "72,68",
+        "proinspectorovano": "94,61",
+        "defects": "87,2"
+    },
+    {
+        "ID": "34",
+        "Municipal_districts": "Кугарчинский район ",
+        "protyajonnost": "808,58",
+        "asfaltobeton": "340,45",
+        "perehodnii": "468,13",
+        "proinspectorovano": "100",
+        "defects": "98,62"
+    },
+    {
+        "ID": "35",
+        "Municipal_districts": "Кушнаренковский район",
+        "protyajonnost": "647",
+        "asfaltobeton": "322,56",
+        "perehodnii": "324,44",
+        "proinspectorovano": "99,21",
+        "defects": "99,8"
+    },
+    {
+        "ID": "36",
+        "Municipal_districts": "Куюргазинский район ",
+        "protyajonnost": "564,66",
+        "asfaltobeton": "230,15",
+        "perehodnii": "334,51",
+        "proinspectorovano": "91,17",
+        "defects": "74,1"
+    },
+    {
+        "ID": "37",
+        "Municipal_districts": "Мелеузовский район",
+        "protyajonnost": "995,02",
+        "asfaltobeton": "572,43",
+        "perehodnii": "422,59",
+        "proinspectorovano": "92,07",
+        "defects": "91,32"
+    },
+    {
+        "ID": "38",
+        "Municipal_districts": "Мечетлинский район ",
+        "protyajonnost": "522,92",
+        "asfaltobeton": "220,3",
+        "perehodnii": "302,62",
+        "proinspectorovano": "100",
+        "defects": "88,89"
+    },
+    {
+        "ID": "39",
+        "Municipal_districts": "Мишкинский район ",
+        "protyajonnost": "521,55",
+        "asfaltobeton": "198,36",
+        "perehodnii": "323,19",
+        "proinspectorovano": "100",
+        "defects": "95,04"
+    },
+    {
+        "ID": "40",
+        "Municipal_districts": "Миякинский район",
+        "protyajonnost": "794,04",
+        "asfaltobeton": "269,79",
+        "perehodnii": "524,25",
+        "proinspectorovano": "100",
+        "defects": "59,51"
+    },
+    {
+        "ID": "41",
+        "Municipal_districts": "Нуримановский район",
+        "protyajonnost": "510,61",
+        "asfaltobeton": "113,86",
+        "perehodnii": "396,75",
+        "proinspectorovano": "100",
+        "defects": "94,08"
+    },
+    {
+        "ID": "42",
+        "Municipal_districts": "Салаватский район",
+        "protyajonnost": "739,84",
+        "asfaltobeton": "259,01",
+        "perehodnii": "480,83",
+        "proinspectorovano": "99,93",
+        "defects": "96,1"
+    },
+    {
+        "ID": "43",
+        "Municipal_districts": "Стерлибашевский район",
+        "protyajonnost": "519,42",
+        "asfaltobeton": "242,22",
+        "perehodnii": "277,2",
+        "proinspectorovano": "100",
+        "defects": "93,65"
+    },
+    {
+        "ID": "44",
+        "Municipal_districts": "Стерлитамакский район",
+        "protyajonnost": "2014,58",
+        "asfaltobeton": "1655,34",
+        "perehodnii": "359,24",
+        "proinspectorovano": "51,07",
+        "defects": "95,46"
+    },
+    {
+        "ID": "45",
+        "Municipal_districts": "Татышлинский район",
+        "protyajonnost": "604,5",
+        "asfaltobeton": "231,75",
+        "perehodnii": "372,75",
+        "proinspectorovano": "100",
+        "defects": "92,88"
+    },
+    {
+        "ID": "46",
+        "Municipal_districts": "Туймазинский район",
+        "protyajonnost": "1165,34",
+        "asfaltobeton": "690,11",
+        "perehodnii": "475,23",
+        "proinspectorovano": "96,28",
+        "defects": "70,42"
+    },
+    {
+        "ID": "47",
+        "Municipal_districts": "Уфимский район",
+        "protyajonnost": "1102,6",
+        "asfaltobeton": "729,76",
+        "perehodnii": "372,84",
+        "proinspectorovano": "100",
+        "defects": "90,82"
+    },
+    {
+        "ID": "48",
+        "Municipal_districts": "Учалинский район",
+        "protyajonnost": "1226,87",
+        "asfaltobeton": "446,73",
+        "perehodnii": "780,14",
+        "proinspectorovano": "99,86",
+        "defects": "47,26"
+    },
+    {
+        "ID": "49",
+        "Municipal_districts": "Фёдоровский район",
+        "protyajonnost": "478,43",
+        "asfaltobeton": "206,22",
+        "perehodnii": "272,21",
+        "proinspectorovano": "98,64",
+        "defects": "98,47"
+    },
+    {
+        "ID": "50",
+        "Municipal_districts": "Хайбуллинский район",
+        "protyajonnost": "595,59",
+        "asfaltobeton": "265,69",
+        "perehodnii": "329,9",
+        "proinspectorovano": "99,3",
+        "defects": "88,91"
+    },
+    {
+        "ID": "51",
+        "Municipal_districts": "Чекмагушевский район",
+        "protyajonnost": "616,79",
+        "asfaltobeton": "315,58",
+        "perehodnii": "301,21",
+        "proinspectorovano": "98,92",
+        "defects": "95,1"
+    },
+    {
+        "ID": "52",
+        "Municipal_districts": "Чишминский район",
+        "protyajonnost": "772,37",
+        "asfaltobeton": "365,41",
+        "perehodnii": "406,96",
+        "proinspectorovano": "99,78",
+        "defects": "73,03"
+    },
+    {
+        "ID": "53",
+        "Municipal_districts": "Шаранский район",
+        "protyajonnost": "487,26",
+        "asfaltobeton": "200,03",
+        "perehodnii": "287,23",
+        "proinspectorovano": "91,93",
+        "defects": "54,75"
+    },
+    {
+        "ID": "54",
+        "Municipal_districts": "Янаульский район",
+        "protyajonnost": "993,03",
+        "asfaltobeton": "436,55",
+        "perehodnii": "556,48",
+        "proinspectorovano": "100",
+        "defects": "89,19"
+    },
+    {
+        "ID": "55",
+        "Municipal_districts": "Агидель г.о.",
+        "protyajonnost": "35,31",
+        "asfaltobeton": "31,93",
+        "perehodnii": "3,38",
+        "proinspectorovano": "100",
+        "defects": "100"
+    },
+    {
+        "ID": "56",
+        "Municipal_districts": "Кумертау г.о.",
+        "protyajonnost": "137,32",
+        "asfaltobeton": "98,58",
+        "perehodnii": "38,74",
+        "proinspectorovano": "100",
+        "defects": "97,23"
+    },
+    {
+        "ID": "57",
+        "Municipal_districts": "Нефтекамск г.о.",
+        "protyajonnost": "379,98",
+        "asfaltobeton": "229,72",
+        "perehodnii": "150,26",
+        "proinspectorovano": "100",
+        "defects": "94,85"
+    },
+    {
+        "ID": "58",
+        "Municipal_districts": "Октябрьский г.о.",
+        "protyajonnost": "358,09",
+        "asfaltobeton": "277,99",
+        "perehodnii": "80,1",
+        "proinspectorovano": "100",
+        "defects": "100"
+    },
+    {
+        "ID": "59",
+        "Municipal_districts": "Салават г.о.",
+        "protyajonnost": "262,01",
+        "asfaltobeton": "251,49",
+        "perehodnii": "10,52",
+        "proinspectorovano": "100",
+        "defects": "99,59"
+    },
+    {
+        "ID": "60",
+        "Municipal_districts": "Сибай г.о.",
+        "protyajonnost": "196,3",
+        "asfaltobeton": "105,87",
+        "perehodnii": "90,43",
+        "proinspectorovano": "70,26",
+        "defects": "100"
+    },
+    {
+        "ID": "61",
+        "Municipal_districts": "Стерлитамак г.о.",
+        "protyajonnost": "494,77",
+        "asfaltobeton": "449,24",
+        "perehodnii": "45,53",
+        "proinspectorovano": "100",
+        "defects": "100"
+    },
+    {
+        "ID": "62",
+        "Municipal_districts": "Уфа г.о. ",
+        "protyajonnost": "1749,59",
+        "asfaltobeton": "1388,77",
+        "perehodnii": "360,82",
+        "proinspectorovano": "99,88",
+        "defects": "95,44"
+    },
+    {
+        "ID": "63",
+        "Municipal_districts": "город Межгорье",
+        "protyajonnost": "40,97",
+        "asfaltobeton": "33,97",
+        "perehodnii": "7",
+        "proinspectorovano": "100",
+        "defects": "100"
+    }
+]

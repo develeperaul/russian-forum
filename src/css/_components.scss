@@ -1,0 +1,154 @@
+@layer components {
+  .card {
+    $border-w: 0.67rem;
+    position: relative;
+    padding: 0.83rem + $border-w;
+    border-radius: 1.7rem;
+    background: rgba(12, 114, 234, 0.16);
+    backdrop-filter: blur(27.18899917602539px);
+    @screen lg {
+      padding: 1.86rem + $border-w;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      inset: calc(0px - 0rem);
+      /*
+      если нет поддержки inset:
+      top: var(--border-w);
+      left: var(--border-w);
+      right: var(--border-w);
+      bottom: var(--border-w);
+      */
+      background: #5868c0;
+      border-radius: 1.69rem;
+      padding: $border-w;
+      mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+    }
+    &_deep {
+      background: linear-gradient(
+        180deg,
+        rgba(83, 79, 255, 0) 0%,
+        #534fff 100%
+      );
+      &::before {
+        background: linear-gradient(180deg, #585db9, #8986fe);
+      }
+    }
+    &_orange {
+      background: linear-gradient(
+        180deg,
+        rgba(255, 142, 79, 0) 0%,
+        #ff8e4f 100%
+      );
+      &::before {
+        background: linear-gradient(180deg, #5a5fb5, #fbb088);
+      }
+    }
+    &_green {
+      background: linear-gradient(
+        180deg,
+        rgba(26, 201, 94, 0) 0%,
+        #1ac95e 100%
+      );
+
+      &::before {
+        background: linear-gradient(180deg, #575fb7, #63d892);
+      }
+    }
+    &_red {
+      background: linear-gradient(
+        180deg,
+        rgba(255, 86, 86, 0) 0%,
+        #ff5656 100%
+      );
+
+      &::before {
+        background: linear-gradient(180deg, #575fb7, #fd8c8c);
+      }
+    }
+    &_base {
+      @apply tw-flex tw-flex-col tw-gap-8 lg:tw-gap-[3.38rem] tw-justify-between;
+      .top {
+        @apply tw-font-normal tw-flex tw-gap-5 lg:tw-gap-8.1;
+        .card-icon {
+          @apply tw-shrink-0;
+        }
+      }
+      .bottom {
+        @apply tw-flex tw-gap-4 lg:tw-gap-[1.69rem];
+        @apply tw-font-ibm tw-font-bold;
+      }
+      .title {
+        @apply tw-text-t03 tw-font-normal;
+      }
+      .summ {
+        @apply tw-font-ibm;
+        font-size: 2.25rem;
+        font-weight: 700;
+        line-height: 120%; /* 2.7rem */
+        letter-spacing: -0.125rem;
+        @screen lg {
+          font-size: 3.79688rem;
+          letter-spacing: -0.21094rem;
+        }
+      }
+      .sub {
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 120%; /* 1.5rem */
+        letter-spacing: -0.0625rem;
+        @screen lg {
+          font-size: 2.10938rem;
+          letter-spacing: -0.10544rem;
+        }
+      }
+    }
+    &_lg {
+      @apply tw-flex tw-flex-wrap tw-gap-8 lg:tw-gap-[3.38rem] tw-justify-between;
+      .top {
+        @apply tw-font-normal tw-flex tw-gap-8 lg:tw-gap-[3.37rem] tw-items-center;
+        &:first-child {
+          @apply tw-shrink-0;
+        }
+      }
+      .bottom {
+        @apply tw-flex tw-gap-5 lg:tw-gap-8.1;
+        @apply tw-font-ibm tw-font-bold;
+      }
+      .title {
+        @apply tw-text-t03 tw-font-normal;
+      }
+      .summ {
+        @apply tw-font-ibm;
+        font-size: 6rem;
+        font-weight: 700;
+        line-height: 120%; /* 7.2rem */
+        letter-spacing: -0.25rem;
+        @screen lg {
+          font-size: 10.125rem;
+          letter-spacing: -0.42188rem;
+        }
+      }
+      .sub {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 120%; /* 2.4rem */
+        letter-spacing: -0.125rem;
+        @screen lg {
+          font-size: 3.375rem;
+          letter-spacing: -0.21094rem;
+        }
+      }
+    }
+  }
+  .tool {
+    @apply tw-flex tw-gap-8 tw-w-fit tw-py-4 tw-px-6 tw-text-t05;
+    border-radius: 1rem;
+    background: rgba(12, 114, 234, 0.16);
+
+    backdrop-filter: blur(13.594499588012695px);
+  }
+}
