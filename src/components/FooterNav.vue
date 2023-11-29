@@ -8,12 +8,12 @@
     >
       <BaseIcon name="back-line" class="tw-w-full tw-h-full" />
     </button>
-    <!-- <a
+    <a
       href="http://192.168.88.250:3000/?page=0"
       class="tw-w-[48px] tw-h-[48px] tw-rounded-[10px] tw-bg-green tw-grid tw-place-content-center"
     >
       <BaseIcon name="home" class="tw-w-full tw-h-full" />
-    </a> -->
+    </a>
   </div>
 </template>
 <script setup lang="ts"></script>
