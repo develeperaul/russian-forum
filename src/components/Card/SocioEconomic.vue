@@ -4,7 +4,7 @@
     <div class="card card_lg card_deep tw-col-span-6">
       <div class="top">
         <IconCard name="suitcase" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t00 lg:tw-text-t01">
+        <div class="tw-text-base md:tw-text-t00 lg:tw-text-t01">
           Объем инвестиций
           <br />
           в основной капитал
@@ -12,12 +12,12 @@
       </div>
       <div class="bottom">
         <div
-          class="tw-text-t12 lg:tw-text-t09 -tw-tracking-25 lg:-tw-tracking-42 tw-leading-[120%]"
+          class="tw-text-t06 md:tw-text-t12 lg:tw-text-t09 -tw-tracking-25 lg:-tw-tracking-42 tw-leading-[120%]"
         >
           186,67 млрд ₽
         </div>
         <div
-          class="tw-text-t00 lg:tw-text-t01 -tw-tracking-12 lg:-tw-tracking-21 tw-leading-[120%] tw-text-green"
+          class="tw-text-base md:tw-text-t00 lg:tw-text-t01 -tw-tracking-12 lg:-tw-tracking-21 tw-leading-[120%] tw-text-green"
         >
           106,5% к АППГ
         </div>
@@ -27,7 +27,7 @@
     <div class="card card_base tw-col-span-2">
       <div class="top">
         <IconCard name="industry" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Индекс промышлен- <br />
           ного производства
         </div>
@@ -39,7 +39,7 @@
     <div class="card card_base tw-col-span-2">
       <div class="top">
         <IconCard name="diagram-circle" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Индекс физического <br />
           объема ВРП
         </div>
@@ -51,7 +51,7 @@
     <div class="card card_base tw-col-span-2">
       <div class="top">
         <IconCard name="wheat" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Продукция <br />
           сельского хозяйства
         </div>
@@ -65,7 +65,7 @@
     <div class="card card_base tw-col-span-3">
       <div class="top">
         <IconCard name="bar" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Прирост промышленного производства
           <br />
           и физического объема ВРП
@@ -78,7 +78,7 @@
     <div class="card card_base tw-col-span-3">
       <div class="top">
         <IconCard name="instrument" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Объем выполненных работ <br />
           по ВД «Строительство»
         </div>
@@ -91,17 +91,19 @@
     <div class="card card_lg tw-col-span-6">
       <div class="top">
         <IconCard name="shop" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Оборот малых <br />
           и средних предприятий
         </div>
       </div>
       <div class="bottom">
-        <div class="tw-text-t12 lg:tw-text-t09 tw-leading-[120%]">
+        <div
+          class="tw-text-t06 md:tw-text-t12 lg:tw-text-t09 tw-leading-[120%]"
+        >
           372 438,97 млн ₽
         </div>
         <div
-          class="tw-text-t00 lg:tw-text-t01 -tw-tracking-12 lg:-tw-tracking-21 tw-leading-[120%] tw-text-green"
+          class="tw-text-base md:tw-text-t00 lg:tw-text-t01 -tw-tracking-12 lg:-tw-tracking-21 tw-leading-[120%] tw-text-green"
         >
           101,63% к АППГ
         </div>

@@ -4,14 +4,16 @@
     <div class="card card_lg card_deep tw-col-span-4">
       <div class="top">
         <IconCard name="call" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t00 lg:tw-text-t01 tw-leading-[140%]">
+        <div
+          class="tw-text-base md:tw-text-t00 lg:tw-text-t01 tw-leading-[140%]"
+        >
           Всего вызовов <br />
           за отчетный период
         </div>
       </div>
       <div class="bottom">
         <div
-          class="tw-text-h00 lg:tw-text-t08 -tw-tracking-25 lg:-tw-tracking-42 tw-leading-[120%]"
+          class="tw-text-t15 md:tw-text-t12 md:tw-text-h00 lg:tw-text-t08 -tw-tracking-25 lg:-tw-tracking-42 tw-leading-[120%]"
         >
           {{ item.vizovi }}
         </div>
@@ -26,13 +28,15 @@
     <div class="card card_lg tw-col-span-4">
       <div class="top">
         <IconCard name="internet" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03 tw-leading-[140%]">
+        <div
+          class="tw-text-base md:tw-text-t02 lg:tw-text-t03 tw-leading-[140%]"
+        >
           Всего по службам
         </div>
       </div>
       <div class="bottom">
         <div
-          class="tw-text-t12 lg:tw-text-t09 -tw-tracking-25 lg:-tw-tracking-42 tw-leading-[120%]"
+          class="tw-text-t15 md:tw-text-t12 lg:tw-text-t09 -tw-tracking-25 lg:-tw-tracking-42 tw-leading-[120%]"
         >
           {{ item.slugbi_vsegi }}
         </div>
@@ -136,7 +140,7 @@
       </div>
       <div class="bottom">
         <div
-          class="tw-text-t12 lg:tw-text-t09 -tw-tracking-25 lg:-tw-tracking-42 tw-leading-[120%]"
+          class="tw-text-t15 md:tw-text-t12 lg:tw-text-t09 -tw-tracking-25 lg:-tw-tracking-42 tw-leading-[120%]"
         >
           {{ item.slugbieddc }}
         </div>

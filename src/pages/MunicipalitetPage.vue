@@ -6,7 +6,7 @@
     }"
   >
     <div></div>
-    <div class="content__right tw-px-[125px] lg:tw-px-[211px]">
+    <div class="content__right tw-px-[40px] md:tw-px-[125px] lg:tw-px-[211px]">
       <div class="tw-grid tw-grid-cols-6 tw-gap-5 lg:tw-gap-8.1">
         <div
           class="card card_lg card_deep tw-col-span-6 tw-grid tw-content-start"
@@ -31,7 +31,7 @@
                   Глава администрации
                 </div>
                 <div
-                  class="tw-text-t02 lg:tw-text-t03 -tw-tracking-6 lg:-tw-tracking-10"
+                  class="tw-text-base md:tw-text-t02 lg:tw-text-t03 -tw-tracking-6 lg:-tw-tracking-10"
                 >
                   {{ raion?.Chief }}
                 </div>
@@ -51,7 +51,7 @@
                   Административный центр
                 </div>
                 <div
-                  class="tw-text-t02 lg:tw-text-t03 -tw-tracking-6 lg:-tw-tracking-10"
+                  class="tw-text-base md:tw-text-t02 lg:tw-text-t03 -tw-tracking-6 lg:-tw-tracking-10"
                 >
                   {{ raion?.Administrative_center }}
                 </div>
@@ -67,7 +67,9 @@
               name="people-group"
               class="tw-w-full tw-h-full"
             />
-            <div class="tw-font-normal tw-text-t02 lg:tw-text-t03">
+            <div
+              class="tw-font-normal tw-text-base md:tw-text-t02 lg:tw-text-t03"
+            >
               Население
             </div>
           </div>
@@ -79,7 +81,9 @@
         <div class="card card_base card_green tw-col-span-2">
           <div class="top">
             <IconCard bg="green" name="square" class="tw-w-full tw-h-full" />
-            <div class="tw-text-t02 lg:tw-text-t03">Площадь</div>
+            <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
+              Площадь
+            </div>
           </div>
           <div class="bottom">
             <div class="summ">{{ raion?.S_km2 }}</div>
@@ -89,7 +93,9 @@
         <div class="card card_base card_green tw-col-span-2">
           <div class="top">
             <IconCard bg="green" name="home" class="tw-w-full tw-h-full" />
-            <div class="tw-text-t02 lg:tw-text-t03">Сельских поселений</div>
+            <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
+              Сельских поселений
+            </div>
           </div>
           <div class="bottom">
             <div class="summ">{{ raion?.Village }}</div>
@@ -99,7 +105,7 @@
         <div class="card card_base card_deep tw-col-span-2">
           <div class="top">
             <IconCard name="suitcase" class="tw-w-full tw-h-full" />
-            <div class="tw-text-t02 lg:tw-text-t03">
+            <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
               Инвестиции на душу населения
             </div>
           </div>
@@ -112,7 +118,7 @@
         <div class="card card_base card_deep tw-col-span-2">
           <div class="top">
             <IconCard name="warning" class="tw-w-full tw-h-full" />
-            <div class="tw-text-t02 lg:tw-text-t03">
+            <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
               Количество заявлений в Госуслуги
             </div>
           </div>
@@ -124,7 +130,7 @@
         <div class="card card_base card_deep tw-col-span-2">
           <div class="top">
             <IconCard name="kindergartens" class="tw-w-full tw-h-full" />
-            <div class="tw-text-t02 lg:tw-text-t03">
+            <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
               Обеспеченность детскими садами
             </div>
           </div>
@@ -136,7 +142,9 @@
         <div class="card card_base card_deep tw-col-span-2">
           <div class="top">
             <IconCard name="school" class="tw-w-full tw-h-full" />
-            <div class="tw-font-normal tw-text-t02 lg:tw-text-t03">
+            <div
+              class="tw-font-normal tw-text-base md:tw-text-t02 lg:tw-text-t03"
+            >
               Обеспеченность школами
             </div>
           </div>
@@ -147,7 +155,9 @@
         <div class="card card_base card_deep tw-col-span-2">
           <div class="top">
             <IconCard name="suitacase-close" class="tw-w-full tw-h-full" />
-            <div class="tw-text-t02 lg:tw-text-t03">Уровень безработицы</div>
+            <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
+              Уровень безработицы
+            </div>
           </div>
           <div class="bottom">
             <div class="summ">{{ raion?.bezrab }}</div>
@@ -156,7 +166,7 @@
         <div class="card card_base card_deep tw-col-span-2">
           <div class="top">
             <IconCard name="road3" class="tw-w-full tw-h-full" />
-            <div class="tw-text-t02 lg:tw-text-t03">
+            <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
               Проинспектировано и отремонтировано дорог
             </div>
           </div>

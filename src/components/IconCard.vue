@@ -28,10 +28,10 @@ const props = withDefaults(
     drop-shadow(0px 24px 10px rgba(0, 0, 0, 0.01))
     drop-shadow(0px 37px 10px rgba(0, 0, 0, 0));
   &_base {
-    @apply tw-h-12 tw-w-12 lg:tw-w-[5.0625rem] lg:tw-h-[5.0625rem];
+    @apply tw-h-8 tw-w-8 md:tw-h-12 md:tw-w-12 lg:tw-w-[5.0625rem] lg:tw-h-[5.0625rem];
   }
   &_lg {
-    @apply tw-w-15 tw-h-15 lg:tw-w-[6.32813rem] lg:tw-h-[6.32813rem];
+    @apply tw-h-10 tw-w-10 md:tw-w-15 md:tw-h-15 lg:tw-w-[6.32813rem] lg:tw-h-[6.32813rem];
   }
   &--bg {
     &_deep {

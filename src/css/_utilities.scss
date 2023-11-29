@@ -1,6 +1,6 @@
 @layer utilities {
   .content {
-    @apply tw-grid tw-grid-cols-[1024px_1fr] lg:tw-grid-cols-[1680px_1fr];
+    @apply tw-grid tw-grid-cols-[718px_1fr] md:tw-grid-cols-[1024px_1fr] lg:tw-grid-cols-[1680px_1fr];
     &__left,
     &__right {
       @apply tw-grid tw-content-center tw-relative;
@@ -10,6 +10,6 @@
     }
   }
   .title-card {
-    @apply tw-mb-16 lg:tw-mb-27;
+    @apply tw-mb-4 md:tw-mb-16 lg:tw-mb-27;
   }
 }

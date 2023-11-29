@@ -10,7 +10,7 @@
       </div>
       <div class="bottom">
         <div
-          class="tw-text-h00 lg:tw-text-t08 -tw-tracking-25 lg:-tw-tracking-42 tw-leading-[120%]"
+          class="tw-text-h01 md:tw-text-h00 lg:tw-text-t08 -tw-tracking-25 lg:-tw-tracking-42 tw-leading-[120%]"
         >
           {{ item.protyajonnost }}
         </div>
@@ -31,7 +31,7 @@
       </div>
       <div class="bottom">
         <div
-          class="tw-text-t12 lg:tw-text-t09 -tw-tracking-25 lg:-tw-tracking-42 tw-leading-[120%]"
+          class="tw-text-t06 md:tw-text-t12 lg:tw-text-t09 -tw-tracking-25 lg:-tw-tracking-42 tw-leading-[120%]"
         >
           {{ item.asfaltobeton }}
         </div>
@@ -51,7 +51,7 @@
       </div>
       <div class="bottom">
         <div
-          class="tw-text-t12 lg:tw-text-t09 -tw-tracking-25 lg:-tw-tracking-42 tw-leading-[120%]"
+          class="tw-text-t06 md:tw-text-t12 lg:tw-text-t09 -tw-tracking-25 lg:-tw-tracking-42 tw-leading-[120%]"
         >
           {{ item.perehodnii }}
         </div>
@@ -72,7 +72,7 @@
       </div>
       <div class="bottom">
         <div
-          class="tw-text-t12 lg:tw-text-t09 -tw-tracking-25 lg:-tw-tracking-42 tw-leading-[120%]"
+          class="tw-text-t06 md:tw-text-t12 lg:tw-text-t09 -tw-tracking-25 lg:-tw-tracking-42 tw-leading-[120%]"
         >
           {{ item.proinspectorovano }}%
         </div>
@@ -88,7 +88,7 @@
       </div>
       <div class="bottom">
         <div
-          class="tw-text-t12 lg:tw-text-t09 -tw-tracking-25 lg:-tw-tracking-42 tw-leading-[120%]"
+          class="tw-text-t06 md:tw-text-t12 lg:tw-text-t09 -tw-tracking-25 lg:-tw-tracking-42 tw-leading-[120%]"
         >
           {{ item.defects }}%
         </div>

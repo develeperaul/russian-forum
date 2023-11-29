@@ -2,7 +2,7 @@
   <div ref="selectEl" class="select" :class="{ active: isOpen }">
     <div class="select__head" @click="isOpen = !isOpen">
       <span> {{ select === null ? 'Выбрать район' : select.raion }} </span>
-      <BaseIcon name="forward" class="icon tw-w-12 tw-h-12" />
+      <BaseIcon name="forward" class="icon tw-w-6 tw-h-6" />
     </div>
     <Transition
       appear
@@ -62,11 +62,11 @@ watch(select, (val) => {
 </script>
 <style lang="scss" scoped>
 .select {
-  @apply tw-relative tw-z-10 tw-text-t06 tw-leading-[140%] -tw-tracking-25 tw-font-normal tw-w-[520px];
+  @apply tw-relative tw-z-10 tw-text-base tw-leading-[140%] tw-tracking-6 tw-font-normal  tw-w-full;
   &__head {
-    @apply tw-p-8 tw-flex tw-gap-10 tw-justify-between tw-items-center;
-    border-radius: 1.25rem;
-    border: 6px solid rgba(255, 255, 255, 0.32);
+    @apply tw-px-3 tw-py-2 tw-flex tw-gap-10 tw-justify-between tw-items-center;
+    border-radius: 0.825rem;
+    border: 3px solid rgba(255, 255, 255, 0.32);
 
     background: rgba(12, 114, 234, 0.16);
 
@@ -76,21 +76,21 @@ watch(select, (val) => {
     }
   }
   &__body {
-    @apply -tw-top-4   tw-rounded-[1.25rem] tw-bg-blue-light tw-z-10;
+    @apply -tw-top-2   tw-rounded-[0.825rem] tw-bg-blue-light tw-z-10;
     @apply tw-transform -tw-translate-y-full;
     @apply tw-overflow-hidden tw-absolute tw-w-full tw-z-10  tw-transform;
     @apply tw-transition-all tw-duration-200 tw-ease-in;
-    max-height: 531px;
+    max-height: 300px;
     backdrop-filter: blur(13.594499588012695px);
     &-wrapper {
-      @apply tw-border-[24px] tw-border-[transparent];
+      @apply tw-border-[14px] tw-border-[transparent];
     }
     .child {
-      @apply tw-overflow-auto tw-grid tw-gap-3;
+      @apply tw-overflow-auto tw-grid tw-gap-2;
       max-height: calc(531px - 48px);
       min-height: 0;
       & > * {
-        @apply tw-p-6 tw-rounded-2xl tw-text-t05;
+        @apply tw-p-2 tw-rounded-2xl tw-text-base tw-tracking-6;
         @apply tw-transition-all tw-duration-150 tw-ease-in;
         &:hover {
           @apply tw-bg-blue;

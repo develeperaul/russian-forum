@@ -33,6 +33,8 @@ module.exports = {
       t15: '3.375rem',
       t16: '4.5rem',
       t17: '7.59375rem',
+      t18: '0.75rem',
+      t19: '0.825rem',
       base: '1rem',
       h00: '6rem',
       h01: '3rem',
@@ -59,7 +61,9 @@ module.exports = {
       ibm: 'IBM',
     },
     screens: {
+      md: '2160px',
       lg: '3840px',
+      md2: '3072px',
     },
   },
   plugins: [
@@ -68,11 +72,13 @@ module.exports = {
         '.container': {
           // maxWidth: '1440px',
           width: '100%',
-
-          padding: '0 256px 0 0',
+          padding: '0 40px 0 0',
           //   marginRight: "auto",
           //   marginLeft: "auto",
-          '@media (min-width: 3840px)': {
+          '@media (min-width: 2160px)': {
+            padding: '0 256px 0 0',
+          },
+          '@media (min-width: 3072)': {
             padding: '0 0px',
           },
         },

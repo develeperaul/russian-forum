@@ -2,10 +2,13 @@
   .card {
     $border-w: 0.67rem;
     position: relative;
-    padding: 0.83rem + $border-w;
+    padding: 0.41rem + $border-w;
     border-radius: 1.7rem;
     background: rgba(12, 114, 234, 0.16);
     backdrop-filter: blur(27.18899917602539px);
+    @screen md {
+      padding: 0.83rem + $border-w;
+    }
     @screen lg {
       padding: 1.86rem + $border-w;
     }
@@ -22,10 +25,13 @@
       */
       background: #5868c0;
       border-radius: 1.69rem;
-      padding: $border-w;
+      padding: $border-w / 2;
       mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
       -webkit-mask-composite: xor;
       mask-composite: exclude;
+      @screen md {
+        padding: $border-w;
+      }
     }
     &_deep {
       background: linear-gradient(
@@ -82,24 +88,30 @@
         @apply tw-font-ibm tw-font-bold;
       }
       .title {
-        @apply tw-text-t03 tw-font-normal;
+        @apply tw-text-t02 md:tw-text-t03 tw-font-normal;
       }
       .summ {
         @apply tw-font-ibm;
-        font-size: 2.25rem;
         font-weight: 700;
         line-height: 120%; /* 2.7rem */
         letter-spacing: -0.125rem;
+        font-size: 1.75rem;
+        @screen lg {
+          font-size: 2.25rem;
+        }
         @screen lg {
           font-size: 3.79688rem;
           letter-spacing: -0.21094rem;
         }
       }
       .sub {
-        font-size: 1.25rem;
+        font-size: 1rem;
         font-weight: 700;
         line-height: 120%; /* 1.5rem */
         letter-spacing: -0.0625rem;
+        @screen lg {
+          font-size: 1.25rem;
+        }
         @screen lg {
           font-size: 2.10938rem;
           letter-spacing: -0.10544rem;
@@ -119,24 +131,30 @@
         @apply tw-font-ibm tw-font-bold;
       }
       .title {
-        @apply tw-text-t03 tw-font-normal;
+        @apply tw-text-t02 md:tw-text-t03 tw-font-normal;
       }
       .summ {
         @apply tw-font-ibm;
-        font-size: 6rem;
+        font-size: 3rem;
         font-weight: 700;
         line-height: 120%; /* 7.2rem */
         letter-spacing: -0.25rem;
+        @screen md {
+          font-size: 6rem;
+        }
         @screen lg {
           font-size: 10.125rem;
           letter-spacing: -0.42188rem;
         }
       }
       .sub {
-        font-size: 2rem;
+        font-size: 1.4rem;
         font-weight: 700;
         line-height: 120%; /* 2.4rem */
         letter-spacing: -0.125rem;
+        @screen md {
+          font-size: 2rem;
+        }
         @screen lg {
           font-size: 3.375rem;
           letter-spacing: -0.21094rem;
@@ -145,8 +163,8 @@
     }
   }
   .tool {
-    @apply tw-flex tw-gap-8 tw-w-fit tw-py-4 tw-px-6 tw-text-t05;
-    border-radius: 1rem;
+    @apply tw-flex tw-whitespace-nowrap tw-gap-8 tw-w-fit tw-py-1.5 tw-px-3 tw-text-t05;
+    border-radius: 0.6rem;
     background: rgba(12, 114, 234, 0.16);
 
     backdrop-filter: blur(13.594499588012695px);

@@ -1,9 +1,9 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <Header />
-    <q-page-container class="tw-grid tw-grid-cols-[512px_1fr] lg:tw-block">
+    <q-page-container class="tw-grid md2:tw-grid-cols-[512px_1fr] lg:tw-block">
       <div
-        class="tw-pl-[65px] tw-pr-[85px] tw-grid tw-grid-cols-2 lg:tw-hidden"
+        class="tw-pl-10 tw-pr-12 md:tw-pl-[65px] md:tw-pr-[85px] tw-grid tw-grid-cols-2 md:tw-hidden md2:tw-grid"
       >
         <div class="marquee">
           <div
@@ -102,7 +102,7 @@
 <script setup lang="ts">
 import { transform } from 'typescript'
 
-const procent1 = ref(0)
+const procent1 = ref(10)
 onMounted(() =>
   setInterval(() => {
     procent1.value += 0.015
@@ -122,7 +122,7 @@ onMounted(() =>
   &__text {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-    font-size: 9rem;
+    font-size: 6rem;
     font-style: normal;
     font-weight: 750;
     line-height: 120%; /* 10.8rem */

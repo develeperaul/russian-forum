@@ -17,7 +17,7 @@
     <div class="card card_base tw-col-span-2">
       <div class="top">
         <IconCard name="group" class="tw-w-full tw-h-full" />
-        <div class="tw-font-normal tw-text-t02 lg:tw-text-t03">
+        <div class="tw-font-normal tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Инвестиции на душу <br />
           населения (без СМП)
         </div>
@@ -30,7 +30,7 @@
     <div class="card card_base tw-col-span-2">
       <div class="top">
         <IconCard name="office-men" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Привлеченные <br />
           инвестиции
         </div>
@@ -47,7 +47,7 @@
           name="suitcase-check"
           class="tw-w-full tw-h-full"
         />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Собственные <br />
           инвестиции
         </div>
@@ -61,7 +61,7 @@
     <div class="card card_base tw-col-span-2">
       <div class="top">
         <IconCard name="industry" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Инвестиции по <br />
           крупным и средним <br />
           предприятиям
@@ -76,7 +76,7 @@
     <div class="card card_base tw-col-span-2">
       <div class="top">
         <IconCard name="shop" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Инвестиции <br />
           субъектов МСП
         </div>
@@ -90,7 +90,7 @@
     <div class="card card_base card_orange tw-col-span-2">
       <div class="top">
         <IconCard bg="orange" name="rocket" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Бюджетные <br />
           инвестиции
         </div>

@@ -3,37 +3,41 @@
     <div class="content__left">
       <!-- <BaseSelect :options="municipalitets" v-model="select" /> -->
       <Map
-        class="tw-px-[125px] lg:tw-px-[303px]"
+        class="tw-px-[40px] md:tw-px-[125px] lg:tw-px-[303px]"
         :active="select?.id"
         :comparisionList="comparison"
       />
       <div
-        v-if="comparisonList[selectControl?.kod_name] && select === null"
-        class="tool tw-absolute tw-bottom-[320px] tw-left-1/2 tw-transform -tw-translate-x-1/2 tw-opacity-0"
+        class="tw-absolute tw-bottom-[80px] tw-left-1/2 tw-transform -tw-translate-x-1/2 tw-opacity-0"
         :class="{ 'tw-opacity-100': selectControl }"
       >
         <div
-          v-for="item in comparisonList[selectControl?.kod_name]"
-          class="tw-flex tw-gap-4 tw-items-center"
+          v-if="comparisonList[selectControl?.kod_name] && select === null"
+          class="tool"
         >
-          <span
-            class="tw-w-3 tw-h-3 tw-rounded-full"
-            :style="{ background: item.fill }"
-          ></span>
-          <span class="tw-text-t00 -tw-tracking-12 tw-font-normal">
-            {{ item.title }}
-          </span>
+          <div
+            v-for="item in comparisonList[selectControl?.kod_name]"
+            class="tw-flex tw-gap-4 tw-items-center"
+          >
+            <span
+              class="tw-w-1.5 tw-h-1.5 tw-rounded-full"
+              :style="{ background: item.fill }"
+            ></span>
+            <span class="tw-text-base -tw-tracking-12 tw-font-normal">
+              {{ item.title }}
+            </span>
+          </div>
         </div>
       </div>
       <div
-        class="tw-hidden lg:tw-flex tw-justify-between tw-items-center tw-absolute tw-z-10 tw-bottom-[120px] tw-pl-[58px] tw-pr-[60px] tw-w-full"
+        class="md2:tw-hidden tw-flex tw-gap-3 tw-justify-between tw-items-center tw-absolute tw-z-10 tw-bottom-[20px] tw-pl-[24px] tw-pr-[30px] tw-w-full"
       >
-        <div class="tw-flex tw-gap-6">
+        <div class="tw-flex tw-gap-3">
           <template v-if="select === null">
             <button
               v-for="item in controlList"
               @click="selectControl = item"
-              class="tw-bg-blue-light tw-w-24 tw-h-24 tw-rounded-2xl tw-grid tw-place-content-center"
+              class="tw-bg-blue-light tw-w-10 tw-h-10 tw-rounded-lg tw-grid tw-place-content-center"
               :style="[
                 item.kod_name === selectControl?.kod_name
                   ? 'background:#1572FD'
@@ -44,7 +48,7 @@
             </button>
             <button
               @click="selectControl = null"
-              class="tw-bg-blue-light tw-w-24 tw-h-24 tw-rounded-2xl tw-grid tw-place-content-center"
+              class="tw-bg-blue-light tw-w-10 tw-h-10 tw-rounded-lg tw-grid tw-place-content-center"
             >
               <BaseIcon name="close" class="tw-w-full tw-h-full" />
             </button>
@@ -53,7 +57,7 @@
         <BaseSelect :options="municipalitets" v-model="select" />
       </div>
     </div>
-    <div class="content__right tw-px-[125px] lg:tw-px-[211px]">
+    <div class="content__right tw-px-[40px] md:tw-px-[125px] lg:tw-px-[211px]">
       <Provision v-bind="{ item }" />
       <FooterNav />
     </div>

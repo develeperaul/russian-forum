@@ -1,9 +1,9 @@
 <template>
   <q-page class="tw-container content">
     <div class="content__left">
-      <Map class="tw-px-[125px] lg:tw-px-[303px]" />
+      <Map class="tw-px-[40px] md:tw-px-[125px] lg:tw-px-[303px]" />
     </div>
-    <div class="content__right tw-px-[125px] lg:tw-px-[211px]">
+    <div class="content__right tw-px-[40px] md:tw-px-[125px] lg:tw-px-[211px]">
       <SocioEconomic class=" " />
       <FooterNav />
     </div>

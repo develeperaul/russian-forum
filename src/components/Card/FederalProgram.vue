@@ -3,7 +3,7 @@
     <h2 class="title-card tw-flex tw-gap-8.1">
       Федеральные программы
       <span
-        class="tw-text-t03 -tw-tracking-10 tw-leading-[120%] tw-text-blue-light"
+        class="tw-text-base md:tw-text-t03 -tw-tracking-10 tw-leading-[120%] tw-text-blue-light"
         >(II кв. 2023г.)</span
       >
     </h2>
@@ -12,7 +12,9 @@
     <div class="card card_lg card_deep tw-col-span-6">
       <div class="top">
         <IconCard name="list" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t00 lg:tw-text-t01">Количество заявок</div>
+        <div class="tw-text-base md:tw-text-t00 lg:tw-text-t01">
+          Количество заявок
+        </div>
       </div>
       <div class="bottom">
         <div class="summ">90</div>
@@ -23,7 +25,7 @@
     <div class="card card_base tw-col-span-3">
       <div class="top">
         <IconCard name="check-list" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Одобрено <br />
           заявок
         </div>
@@ -36,7 +38,7 @@
     <div class="card card_base card_orange tw-col-span-3">
       <div class="top">
         <IconCard bg="orange" name="hourglass" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Заявок на <br />
           рассмотрении
         </div>
@@ -49,7 +51,7 @@
     <!-- <div class="card card_base card_deep tw-col-span-2">
       <div class="top">
         <IconCard name="rocket" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Заявок на
           <br />
           стадии подготовки
@@ -63,21 +65,21 @@
     <div class="card card_lg card_deep tw-col-span-6">
       <div class="top">
         <IconCard name="monets" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Финансирование Федеральных
           <br />
           проектов. Предусмотрено
         </div>
       </div>
       <div class="bottom">
-        <div class="tw-text-t12 lg:tw-text-t09">113 687,4</div>
+        <div class="tw-text-t06 md:tw-text-t12 lg:tw-text-t09">113 687,4</div>
         <div class="sub">млн ₽</div>
       </div>
     </div>
     <div class="card card_base card_orange tw-col-span-3">
       <div class="top">
         <IconCard bg="orange" name="hand-circle" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Поступило. Данные за 2 квартал 2023
         </div>
       </div>
@@ -88,7 +90,7 @@
     <div class="card card_base card_green tw-col-span-3">
       <div class="top">
         <IconCard bg="green" name="check-list" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Освоено. Данные за 2 квартал 2023
         </div>
       </div>

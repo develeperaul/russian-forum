@@ -15,7 +15,7 @@
     <div class="card card_base card_deep tw-col-span-2">
       <div class="top">
         <IconCard name="wallet" class="tw-w-full tw-h-full" />
-        <div class="tw-font-normal tw-text-t02 lg:tw-text-t03">
+        <div class="tw-font-normal tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Сумма поездок <br />
           с начала года
         </div>
@@ -28,7 +28,7 @@
     <div class="card card_base tw-col-span-2">
       <div class="top">
         <IconCard name="monets" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Ср. стоимость поездки
           <br />
           за последние сутки
@@ -42,7 +42,7 @@
     <div class="card card_base card_green tw-col-span-2">
       <div class="top">
         <IconCard bg="green" name="alga" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Количество карт
           <br />
           АЛГА у населения
@@ -57,7 +57,7 @@
     <div class="card card_base card_orange tw-col-span-2">
       <div class="top">
         <IconCard bg="orange" name="alga" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Количество пересадок <br />
           по карте Алга
         </div>
@@ -71,7 +71,7 @@
     <div class="card card_base tw-col-span-2">
       <div class="top">
         <IconCard name="point" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Государственные <br />
           поездки
         </div>
@@ -85,7 +85,7 @@
     <div class="card card_base card tw-col-span-2">
       <div class="top">
         <IconCard name="bus2" class="tw-w-full tw-h-full" />
-        <div class="tw-text-t02 lg:tw-text-t03">
+        <div class="tw-text-base md:tw-text-t02 lg:tw-text-t03">
           Частные <br />
           поездки
         </div>

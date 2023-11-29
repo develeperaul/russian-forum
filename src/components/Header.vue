@@ -1,7 +1,7 @@
 <template>
   <div class="tw-absolute tw-z-10 tw-w-full">
     <div class="tw-container">
-      <div class="content tw-pt-10 lg:tw-px-15 lg:tw-pt-15">
+      <div class="content md:tw-pl-0 tw-pt-10 lg:tw-px-15 lg:tw-pt-15">
         <div>
           <router-link
             to="/"

@@ -1,14 +1,17 @@
 <template>
   <q-page class="tw-container content">
     <div class="content__left">
-      <Map class="tw-px-[125px] lg:tw-px-[303px]" :active="select?.id" />
+      <Map
+        class="tw-px-[40px] md:tw-px-[125px] lg:tw-px-[303px]"
+        :active="select?.id"
+      />
       <div
         class="tw-hidden lg:tw-flex tw-justify-end tw-items-center tw-absolute tw-bottom-[120px] tw-pl-[58px] tw-pr-[60px] tw-w-full"
       >
         <BaseSelect :options="municipalitets" v-model="select" />
       </div>
     </div>
-    <div class="content__right tw-px-[125px] lg:tw-px-[211px]">
+    <div class="content__right tw-px-[40px] md:tw-px-[125px] lg:tw-px-[211px]">
       <Gosuslugi v-bind="{ item }" />
       <FooterNav />
     </div>
