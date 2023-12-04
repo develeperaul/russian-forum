@@ -122,12 +122,13 @@ onMounted(() =>
   &__text {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-    font-size: 6rem;
+    font-size: 6.4rem;
     font-style: normal;
     font-weight: 750;
     line-height: 120%; /* 10.8rem */
     letter-spacing: -0.125rem;
     white-space: nowrap;
+    text-transform: uppercase;
   }
 }
 </style>

@@ -1,8 +1,12 @@
 <template>
   <q-page class="tw-container content">
     <div class="content__left">
-      <Map
+      <!-- <Map
         class="tw-px-[40px] md:tw-px-[125px] lg:tw-px-[303px]"
+        
+      /> -->
+      <Map
+        class="tw-mx-auto tw-w-[536px] md2:tw-w-[771px]"
         :active="select?.id"
       />
       <div
