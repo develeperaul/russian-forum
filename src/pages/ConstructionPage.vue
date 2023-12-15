@@ -6,7 +6,7 @@
         
       /> -->
       <Map
-        class="tw-mx-auto tw-w-[536px] md2:tw-w-[771px]"
+        class="tw-mx-auto !tw-w-[536px] md2:!tw-w-[771px]"
         :active="select?.id"
       />
       <div
@@ -15,7 +15,7 @@
         <BaseSelect :options="municipalitets" v-model="select" />
       </div>
     </div>
-    <div class="content__right tw-px-[40px] md:tw-px-[125px] lg:tw-px-[211px]">
+    <div class="content__right tw-px-[105px] md:tw-px-[125px] lg:tw-px-[211px]">
       <Construction v-bind="{ item }" />
       <FooterNav />
     </div>

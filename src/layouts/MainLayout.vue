@@ -1,7 +1,9 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <Header />
-    <q-page-container class="tw-grid md2:tw-grid-cols-[512px_1fr] lg:tw-block">
+    <q-page-container
+      class="tw-grid md2:tw-grid-cols-[512px_1fr] lg:tw-block tw-h-screen tw-overflow-hidden tw-relative"
+    >
       <div
         class="tw-pl-10 tw-pr-12 md:tw-pl-[65px] md:tw-pr-[85px] tw-grid tw-grid-cols-2 md:tw-hidden md2:tw-grid"
       >
@@ -114,6 +116,7 @@ onMounted(() =>
 .marquee {
   position: relative;
   overflow: hidden;
+  z-index: 1;
   height: 100%;
   &__container {
     white-space: nowrap;

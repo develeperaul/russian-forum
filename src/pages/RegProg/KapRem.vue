@@ -1,17 +1,16 @@
 <template>
   <q-page class="tw-container content">
     <div class="content__left">
-      <!-- <Map class="tw-mx-auto tw-w-[536px] md2:tw-w-[771px]" /> -->
+      <!-- <Map class="tw-mx-auto !tw-w-[536px] md2:!tw-w-[771px]" /> -->
       <img
         src="/kaprem.png"
         alt=""
-        class="tw-mx-auto tw-w-[536px] md2:tw-w-[771px]"
+        class="tw-mx-auto !tw-w-[536px] md2:!tw-w-[771px]"
       />
     </div>
-    <div class="content__right tw-px-[40px] md:tw-px-[125px] lg:tw-px-[211px]">
+    <div class="content__right tw-px-[105px] md:tw-px-[125px] lg:tw-px-[211px]">
       <svg
-        class="tw-w-[80%] md:tw-w-[1087px]"
-        height="705"
+        class="tw-w-full md:tw-w-[1030px]"
         viewBox="0 0 1087 705"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

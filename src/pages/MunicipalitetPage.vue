@@ -6,7 +6,7 @@
     }"
   >
     <div></div>
-    <div class="content__right tw-px-[40px] md:tw-px-[125px] lg:tw-px-[211px]">
+    <div class="content__right tw-px-[105px] md:tw-px-[125px] lg:tw-px-[211px]">
       <div class="tw-grid tw-grid-cols-6 tw-gap-5 lg:tw-gap-8.1">
         <div
           class="card card_lg card_deep tw-col-span-6 tw-grid tw-content-start"

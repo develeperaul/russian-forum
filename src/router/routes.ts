@@ -173,6 +173,119 @@ const routes: RouteRecordRaw[] = [
         name: 'ed-centr',
         component: () => import('pages/CURBash/EdCentr.vue'),
       },
+
+      {
+        path: '/ved',
+        name: 'ved',
+        component: () => import('pages/VED/Index.vue'),
+      },
+      {
+        path: '/ved/exp',
+        name: 'ved-exp',
+        component: () => import('pages/VED/Export.vue'),
+      },
+      {
+        path: '/ved/exp/arm',
+        name: 'ved-exp-arm',
+        component: () => import('pages/VED/RegionExport/Arm.vue'),
+      },
+      {
+        path: '/ved/exp/azerb',
+        name: 'ved-exp-azerb',
+        component: () => import('pages/VED/RegionExport/Azerb.vue'),
+      },
+      {
+        path: '/ved/exp/bel',
+        name: 'ved-exp-bel',
+        component: () => import('pages/VED/RegionExport/Bel.vue'),
+      },
+      {
+        path: '/ved/exp/kr',
+        name: 'ved-exp-kr',
+        component: () => import('pages/VED/RegionExport/Kr.vue'),
+      },
+      {
+        path: '/ved/exp/kz',
+        name: 'ved-exp-kz',
+        component: () => import('pages/VED/RegionExport/Kz.vue'),
+      },
+      {
+        path: '/ved/exp/mold',
+        name: 'ved-exp-mold',
+        component: () => import('pages/VED/RegionExport/Mold.vue'),
+      },
+      {
+        path: '/ved/exp/tadg',
+        name: 'ved-exp-tadg',
+        component: () => import('pages/VED/RegionExport/Tadg.vue'),
+      },
+      {
+        path: '/ved/exp/turk',
+        name: 'ved-exp-turk',
+        component: () => import('pages/VED/RegionExport/Turk.vue'),
+      },
+      {
+        path: '/ved/exp/uzb',
+        name: 'ved-exp-uzb',
+        component: () => import('pages/VED/RegionExport/Uzb.vue'),
+      },
+      {
+        path: '/ved/imp',
+        name: 'ved-imp',
+        component: () => import('pages/VED/Import.vue'),
+      },
+
+      {
+        path: '/ved/imp/arm',
+        name: 'ved-imp-arm',
+        component: () => import('pages/VED/RegionImport/Arm.vue'),
+      },
+      {
+        path: '/ved/imp/azerb',
+        name: 'ved-imp-azerb',
+        component: () => import('pages/VED/RegionImport/Azerb.vue'),
+      },
+      {
+        path: '/ved/imp/bel',
+        name: 'ved-imp-bel',
+        component: () => import('pages/VED/RegionImport/Bel.vue'),
+      },
+      {
+        path: '/ved/imp/kr',
+        name: 'ved-imp-kr',
+        component: () => import('pages/VED/RegionImport/Kr.vue'),
+      },
+      {
+        path: '/ved/imp/kz',
+        name: 'ved-imp-kz',
+        component: () => import('pages/VED/RegionImport/Kz.vue'),
+      },
+      {
+        path: '/ved/imp/mold',
+        name: 'ved-imp-mold',
+        component: () => import('pages/VED/RegionImport/Mold.vue'),
+      },
+      {
+        path: '/ved/imp/tadg',
+        name: 'ved-imp-tadg',
+        component: () => import('pages/VED/RegionImport/Tadg.vue'),
+      },
+      {
+        path: '/ved/imp/turk',
+        name: 'ved-imp-turk',
+        component: () => import('pages/VED/RegionImport/Turk.vue'),
+      },
+      {
+        path: '/ved/imp/uzb',
+        name: 'ved-imp-uzb',
+        component: () => import('pages/VED/RegionImport/Uzb.vue'),
+      },
+
+      {
+        path: '/ved/ext',
+        name: 'ved-ext',
+        component: () => import('pages/VED/External.vue'),
+      },
     ],
   },
 

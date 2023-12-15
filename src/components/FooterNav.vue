@@ -1,6 +1,6 @@
 <template>
   <div
-    class="tw-flex tw-justify-between md2:tw-hidden tw-absolute tw-z-10 tw-bottom-[20px] tw-left-0 tw-w-full tw-px-[40px] lg:tw-px-[211px]"
+    class="tw-flex tw-justify-between md2:tw-hidden tw-absolute tw-z-10 tw-bottom-[20px] tw-left-0 tw-w-full tw-px-[105px] lg:tw-px-[211px]"
   >
     <button
       @click="$router.go(-1)"
