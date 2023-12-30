@@ -10,7 +10,6 @@ declare module 'vue' {
     BaseIcon: typeof import('./components/core/BaseIcon.vue')['default']
     BaseSelect: typeof import('./components/BaseSelect.vue')['default']
     Construction: typeof import('./components/Card/Construction.vue')['default']
-    copy: typeof import('./components/Header copy.vue')['default']
     EssentialLink: typeof import('./components/EssentialLink.vue')['default']
     ExampleComponent: typeof import('./components/ExampleComponent.vue')['default']
     FederalProgram: typeof import('./components/Card/FederalProgram.vue')['default']
